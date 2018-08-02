@@ -12,6 +12,8 @@ class CatalogController extends Controller
      */
     public function index()
     {
+//        $connection = new \MongoClient('mongodb://example.com:65432');
+//        $connection->connect();
         return $this->render('catalog/index.html.twig');
     }
 }
